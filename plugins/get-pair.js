@@ -3,11 +3,11 @@ const axios = require('axios');
 
 cmd({
     pattern: "pair",
-    alias: ["getpair", "clonebot"],
+    alias: ["getpair", "code"],
     react: "✅",
     desc: "Get pairing code for NEXUS-XMD bot",
     category: "download",
-    use: ".pair 2546582XXX",
+    use: ".pair 254785392165",
     filename: __filename
 }, async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, senderNumber, reply }) => {
     try {
@@ -16,11 +16,11 @@ cmd({
 
         // Validate phone number format
         if (!phoneNumber || phoneNumber.length < 10 || phoneNumber.length > 15) {
-            return await reply("❌ Please provide a valid phone number without `+`\nExample: `.pair 923427582XXX`");
+            return await reply("❌ Please provide a valid phone number without `+`\nExample: `.pair 2547124666`");
         }
 
         // Make API request to get pairing code
-        const response = await axios.get(`https://nexus-xmd-pair-site.onrender.com/code?number=${encodeURIComponent(phoneNumber)}`);
+        const response = await axios.get(`https://nexus-pair2.onrender.com/code?number=${encodeURIComponent(phoneNumber)}`);
 
         if (!response.data || !response.data.code) {
             return await reply("❌ Failed to retrieve pairing code. Please try again later.");

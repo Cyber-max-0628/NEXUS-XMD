@@ -120,7 +120,7 @@ ${config.DESCRIPTION}`;
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363288304618280@newsletter',
-                    newsletterName: config.OWNER_NAME || 'NEXUS TECH',
+                    newsletterName: config.OWNER_NAME || 'Nexus-tech',
                     serverMessageId: 143
                 }
             }
