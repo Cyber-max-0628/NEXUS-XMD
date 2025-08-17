@@ -13,13 +13,13 @@ cmd({
     try {
         const menuCaption = `╭━━━〔 *${config.BOT_NAME}* 〕━━━┈⊷
 ┃💠╭──────────────
-┃🔹│ 🧟 𝕆𝕨𝕟𝕖𝕣̾ : *${config.OWNER_NAME}*
-┃🔹│ 🗽 𝔹𝕒𝕚𝕝𝕖𝕪𝕤 : *Multi Device*
-┃🔹│ ❄️ 𝕋𝕪𝕡𝕖 : *NodeJs*
-┃🔹│ 🏩 ℙ𝕝𝕒𝕥𝕗𝕠𝕣𝕞 : *Panel*
-┃🔹│ 🤔 𝕄𝕠𝕕𝕖 : *[${config.MODE}]*
-┃🔹│ ✅ ℙ𝕣𝕖𝕗𝕚𝕩 : *[${config.PREFIX}]*
-┃🔹│ 🎭 𝕍𝕖𝕣𝕤𝕚𝕠𝕟 : *4.0.0 Antiban*
+┃♥️│ 🧟 𝕆𝕨𝕟𝕖𝕣̾ : *${config.OWNER_NAME}*
+┃♥️│ 🗽 𝔹𝕒𝕚𝕝𝕖𝕪𝕤 : *Multi Device*
+┃♥️│ ❄️ 𝕋𝕪𝕡𝕖 : *NodeJs*
+┃♥️│ 🏩 ℙ𝕝𝕒𝕥𝕗𝕠𝕣𝕞 : *Panel*
+┃♥️│ 🤔 𝕄𝕠𝕕𝕖 : *[${config.MODE}]*
+┃♥️│ ✅ ℙ𝕣𝕖𝕗𝕚𝕩 : *[${config.PREFIX}]*
+┃♥️│ 🎭 𝕍𝕖𝕣𝕤𝕚𝕠𝕟 : *4.0.0 Antiban*
 ┃💠╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
 ╭━━〔 *❤️MENU LIST♥️* 〕━━┈⊷
